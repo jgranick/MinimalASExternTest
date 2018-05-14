@@ -1,0 +1,25 @@
+{
+  "name": "minimalswctest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "asconfigc --sdk ./node_modules/@apache-royale/royale-js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgranick/MinimalSWCTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgranick/MinimalSWCTest/issues"
+  },
+  "homepage": "https://github.com/jgranick/MinimalSWCTest#readme",
+  "devDependencies": {
+    "@apache-royale/cli": "^0.1.0",
+    "@apache-royale/royale-js": "^0.9.3",
+    "asconfigc": "^0.6.9"
+  }
+}
